@@ -133,8 +133,8 @@ export function Sidebar({
               </div>
               {!isCollapsed && (
                 <div className="flex-1 min-w-0">
-                  <p className="text-xs font-black text-text-main dark:text-white truncate">Gleicio Ribeiro</p>
-                  <p className="text-[10px] text-text-muted dark:text-gray-500 truncate">Premium Plan</p>
+                  <p className="text-xs font-black text-text-main dark:text-white truncate">{userName}</p>
+                  <p className="text-[10px] text-text-muted dark:text-gray-500 truncate">{userEmail}</p>
                 </div>
               )}
             </div>
