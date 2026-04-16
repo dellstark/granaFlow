@@ -70,7 +70,7 @@ export function Sidebar({
                 <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center text-white shadow-lg shadow-accent/20">
                   <TrendingUp size={20} />
                 </div>
-                <span className="font-black text-lg tracking-tight dark:text-white">Smart<span className="text-accent">Finance</span></span>
+                <span className="font-black text-lg tracking-tight dark:text-white">Grana<span className="text-accent">Flow</span></span>
               </div>
             )}
             {isCollapsed && (
